@@ -8,8 +8,8 @@ const theSuperagentWay = require("./HTTPClients/superagentWay");
 
 // In the "requires" above, notice that I'm calling local files that I've written.
 // Look at how I'm doing this in each of those files. I'm setting "module.exports"
-// to an object (in this case a function), and this object is what gets imported
-// into this file and used below.
+// to an object (in this case, this object is a FUNCTION), and this object is what gets imported
+// into THIS file and used below.
 //
 // Read: https://blog.risingstack.com/node-js-at-scale-module-system-commonjs-require/
 
