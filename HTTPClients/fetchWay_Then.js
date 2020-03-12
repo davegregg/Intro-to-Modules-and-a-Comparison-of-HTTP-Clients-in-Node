@@ -6,7 +6,7 @@ module.exports = function (uri) {
   fetch(uri)
     .then(response => {
       console.log(logSpacing);
-      console.log("NODE-FETCH library way of making a GET request (using .then())");
+      console.log("The NODE-FETCH library way of making a GET request (using .then())");
       console.log("Status code:", response.status);
       return response.json();
     })

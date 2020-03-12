@@ -5,7 +5,7 @@ module.exports = function (uri) {
   
   request(uri, (error, response, jsonBody) => {
     console.log(logSpacing);
-    console.log("REQUEST library way of making a GET request");
+    console.log("The REQUEST library way of making a GET request");
     console.log("Status code:", response.statusCode);
 
     const hydratedBody = JSON.parse(jsonBody);

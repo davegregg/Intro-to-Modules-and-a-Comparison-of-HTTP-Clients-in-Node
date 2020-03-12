@@ -8,7 +8,7 @@ module.exports = function (uri) {
     const hydratedBody = await response.json();
   
     console.log(logSpacing);
-    console.log("NODE-FETCH library way of making a GET request (using async/await)");
+    console.log("The NODE-FETCH library way of making a GET request (using async/await)");
     console.log("Status code:", response.status);
     console.log(hydratedBody);
   };
