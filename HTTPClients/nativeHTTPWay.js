@@ -15,7 +15,7 @@ module.exports = function (uri) {
     // finally, hydrate and log it
     response.on("end", () => {
       console.log(logSpacing);
-      console.log("Native Node HTTP library way of making a GET request");
+      console.log("The Native Node HTTP library way of making a GET request");
       console.log("Status code:", response.statusCode);
 
       const hydratedBody = JSON.parse(jsonBody);
